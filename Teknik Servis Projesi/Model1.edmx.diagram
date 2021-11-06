@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cab99af7d350432781d6330c04abff65" Name="Diagram1">
+        <EntityTypeShape EntityType="DBTekniKServisModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLADMIN" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLARACLAR" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLARIZADETAY" Width="1.5" PointX="9.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLCARİ" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLDEPARTMAN" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLFATURABILGI" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLFATURADETAY" Width="1.5" PointX="7.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLGIDER" Width="1.5" PointX="10.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLKATEGORI" Width="1.5" PointX="3.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLNOTLARIM" Width="1.5" PointX="10.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLPERSONEL" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLURUN" Width="1.5" PointX="6" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLURUNHAREKET" Width="1.5" PointX="8.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLURUNKABUL" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLURUNTAKIP" Width="1.5" PointX="8.25" PointY="14.375" IsExpanded="true" />
+        <AssociationConnector Association="DBTekniKServisModel.FK_TBLFATURABILGI_TBLCARİ" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTekniKServisModel.FK_TBLURUNHAREKET_TBLCARİ" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTekniKServisModel.FK_TBLURUNKABUL_TBLCARİ" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTekniKServisModel.FK_TBLPERSONEL_TBLDEPARTMAN" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTekniKServisModel.FK_TBLFATURABILGI_TBLPERSONEL" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTekniKServisModel.FK_TBLFATURADETAY_TBLFATURABILGI" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTekniKServisModel.FK_TBLURUN_TBLKATEGORI" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTekniKServisModel.FK_TBLURUNHAREKET_TBLPERSONEL" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTekniKServisModel.FK_TBLURUNKABUL_TBLPERSONEL" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTekniKServisModel.FK_TBLURUNHAREKET_TBLURUN" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLHAKKIMIZDA" Width="1.5" PointX="12.375" PointY="0.75" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.TBLILETISIM" Width="1.5" PointX="12.375" PointY="9.75" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.ilceler" Width="1.5" PointX="12.375" PointY="12.75" />
+        <EntityTypeShape EntityType="DBTekniKServisModel.iller" Width="1.5" PointX="13.375" PointY="3.75" />
+        <AssociationConnector Association="DBTekniKServisModel.FK_ilceler_iller" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

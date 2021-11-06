@@ -1,0 +1,1 @@
+Ufak bir teknik servis projesi geliştirildi. Entity Framework, LinQ, Devekspress gibi teknolojiler kullanıldı.
