@@ -19,18 +19,23 @@ namespace Teknik_Servis_Projesi.Formlar
         DBTekniKServisEntities2 db = new DBTekniKServisEntities2();
         private void FrmLogin_Load(object sender, EventArgs e)
         {
+           
+            
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
             var sorgu = from x in db.TBLADMIN where x.KULLANICIAD == textEdit1.Text & x.SIFRE == textEdit2.Text select x;
             if (sorgu.Any())
             {
                 Form1 frm = new Form1();
                 frm.Show();
-                this.Close();
+                
             }
             else
             {
                 MessageBox.Show("Hatalı Giriş Yaptınız. Kullanıcı adı veya Şifrenizi kontrol ediniz.", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            
         }
     }
 }

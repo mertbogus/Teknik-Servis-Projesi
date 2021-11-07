@@ -60,7 +60,7 @@ namespace Teknik_Servis_Projesi.Formlar
             this.label1.Font = new System.Drawing.Font("Segoe Print", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(48, 149);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(380, 40);
+            this.label1.Size = new System.Drawing.Size(363, 38);
             this.label1.TabIndex = 1;
             this.label1.Text = "TEKNİK SERVİS GİRİŞ EKRANI";
             // 
@@ -112,6 +112,7 @@ namespace Teknik_Servis_Projesi.Formlar
             this.simpleButton1.Size = new System.Drawing.Size(150, 40);
             this.simpleButton1.TabIndex = 6;
             this.simpleButton1.Text = "Giriş Yap";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // textEdit2
             // 
